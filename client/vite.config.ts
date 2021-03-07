@@ -14,7 +14,10 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": rootResolve('src'),
-      "@pages": rootResolve('src/pages')
+      "@pages": rootResolve('src/pages'),
+      "@components": rootResolve('src/components'),
+
+      "@img": rootResolve('src/assets/img'),
     }
   }
 })

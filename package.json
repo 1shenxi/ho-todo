@@ -3,5 +3,11 @@
   "description": "my todolist project",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "scripts": {
+    "dev": "sh ./scripts/dev.sh"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@hoboy/css": "^0.0.1"
+  }
 }
